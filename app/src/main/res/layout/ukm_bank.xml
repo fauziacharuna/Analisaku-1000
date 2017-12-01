@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_marginTop="50dp"
+        android:layout_width="249dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo_fix"/>
+
+    <Button
+        android:id="@+id/btn_ukm"
+        android:layout_width="293dp"
+        android:layout_height="23dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ukm_button" />
+
+    <ImageView
+        android:id="@+id/btn_bank_investor"
+        android:layout_width="293dp"
+        android:layout_height="23dp"
+        android:layout_alignLeft="@+id/btn_ukm"
+        android:layout_alignStart="@+id/btn_ukm"
+        android:layout_below="@+id/btn_ukm"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/button_bnk" />
+</RelativeLayout>

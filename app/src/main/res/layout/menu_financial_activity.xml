@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/avatar" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="142dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/iv_avatar"
+        android:background="@drawable/data_btn" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_margin="5dp"
+        android:text="@string/username"
+        android:textColor="@color/text_background" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/iv_avatar"
+        android:background="@color/text_background"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:src="@drawable/financial_smart_text" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/view"
+        android:layout_marginTop="140dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/btn_likuiditas"
+            android:layout_width="294dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_rasio_likuiditas"/>
+        <Button
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/btn_aktifitas"
+            android:layout_width="294dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_rasio_aktifitas"/>
+        <Button
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/btn_leverage"
+            android:layout_width="294dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rasio_leverage"/>
+        <Button
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/btn_profitabilitas"
+            android:layout_width="294dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rasio_profitabilitas"/>
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/tv_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_background"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="KEMBALI"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

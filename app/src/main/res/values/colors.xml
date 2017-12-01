@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#001135</color>
+    <color name="colorAccent">#4c89cf</color>
+    <color name="Background">#001135</color>
+    <color name="text_background">#ffffff</color>
+    <color name="baik_category">#42c949</color>
+    <color name="buruk_category">#ff5252</color>
+</resources>

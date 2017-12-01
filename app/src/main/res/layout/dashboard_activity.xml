@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:src="@drawable/avatar"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:text="@string/nama_ukm"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/profil_btn"
+        android:background="@drawable/button_profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="142dp"
+        android:layout_height="26dp" />
+
+    <Button
+        android:id="@+id/data_btn"
+        android:background="@drawable/data_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="142dp"
+        android:layout_height="26dp" />
+    <Button
+        android:id="@+id/notifikasi_btn"
+        android:background="@drawable/notfikasi_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="142dp"
+        android:layout_height="26dp" />
+
+
+
+
+</LinearLayout>

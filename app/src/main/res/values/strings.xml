@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AnalisaProject</string>
+    <string name="nama_ukm">StartUp Digital</string>
+    <string name="action_settings">Setting</string>
+    <string name="username">Analisaku</string>
+    <string name="fsOne">Smart Financial merupakan fitur yang kami sediakan untuk menganalisa keuangan kamu</string>
+    <string name="fsTwo">Smart Financial akan membantumu mengetahui kondisi perusahaan melalui keuanganmu</string>
+    <string name="fsThree">Siap Bermain Dengan Smart Financial</string>
+    <string name="back">KEMBALI</string>
+    <string name="harta_lancar">Input Harta Lancar</string>
+    <string name="hutang_lancar">Input Hutang Lancar</string>
+    <string name="Laba_Bersih">Input Laba Bersih</string>
+    <string name="Penjualan">Input Penjualan</string>
+    <string name="Penjualan_Neto">Input Penjualan Neto</string>
+    <string name="Total_Harta">Input Total Harta </string>
+    <string name="Total_Hutang">Input Total Hutang</string>
+    <string name="ya">YA</string>
+    <string name="tidak">TIDAK</string>
+</resources>

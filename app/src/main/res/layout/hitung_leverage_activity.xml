@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Background">
+
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/avatar" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="142dp"
+            android:layout_height="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/iv_avatar"
+            android:background="@drawable/data_btn" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_margin="5dp"
+            android:text="@string/username"
+            android:textColor="@color/text_background" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/iv_avatar"
+            android:background="@color/text_background" />
+
+        <Button
+            android:id="@+id/button_rasio_leverage"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/tv_username"
+            android:layout_alignStart="@+id/tv_username"
+            android:layout_below="@+id/tv_username"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/rasio_leverage_small" />
+
+        <EditText
+            android:id="@+id/et_totalHutang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_rasio_leverage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="94dp"
+            android:background="@drawable/border_hitung"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="@string/Total_Hutang"
+            android:textColor="@color/text_background"
+            android:textColorHint="@color/text_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.305"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_totalHarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_rasio_leverage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/border_hitung"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="@string/Total_Harta"
+            android:textColor="@color/text_background"
+            android:textColorHint="@color/text_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.305"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_hitung_leverage"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_totalHarta"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="HITUNG LEVERAGE"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <TextView
+            android:id="@+id/tv_hasil_leverage"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_hitung_leverage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rectangle"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_hitungan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.329" />
+
+        <Button
+            android:id="@+id/btn_hasil_analisa"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/btn_hitung_leverage"
+            android:layout_alignStart="@+id/btn_hitung_leverage"
+            android:layout_below="@+id/tv_hasil_leverage"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/hasil_analisa"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/activity_vertical_margin"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:orientation="vertical"-->
+    <!--tools:layout_editor_absoluteX="80dp">-->
+
+    <!--</LinearLayout>-->
+
+</android.support.constraint.ConstraintLayout>
